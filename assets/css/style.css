@@ -5,5 +5,115 @@
 
 body {
   background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  flex: auto;
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
   color: beige;
+}
+
+footer {
+  background-color: #000;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+p {
+  color: #fff;
+}
+
+.header {
+  background-color: #000;
+  color: #fff;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.panel {
+  margin-top: 20px;
+  background-color: #000;
+  text-align: center;
+  width: 100%;
+  height: 50vh;
+}
+
+.panel-button {
+  display: flexbox;
+  width: 50%;
+  border: none;
+  outline: none;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  cursor: pointer;
+  
+  justify-content: center;
+}
+
+.panel-content {
+  color: white;
+  display: none;
+  padding: 20px;
+}
+
+.panel.active .panel-content {
+  display: block;
+}
+
+/* Footer styles */
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.social-icons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons li {
+  margin-left: 10px;
+}
+
+.social-icons li:first-child {
+  margin-left: 0;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #333;
+}
+
+.rights {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
 }
