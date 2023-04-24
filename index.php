@@ -5,12 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/style.css">
-  <title>Home Crucio</title>
+  <title>CrucioInkart</title>
 </head>
 <body>
   <header class="header">
     <div class="logo-container">
-      <a href="index.html"><img href="index.html" src="assets/img/crucio-logo.png" alt="Logo" class="logo"></a>
+      <a href="/"><img src="assets/img/crucio-logo.png" alt="Logo" class="logo"></a>
     </div>
   </header>
   <div class="panel">
@@ -29,7 +29,6 @@
   </div>
   <footer>
     <div class="container">
-      <div class="row">
         <div class="icons">
           <ul class="social-icons">
             <li><a href="#"><i class="fa fa-facebook"></i>F</a></li>
@@ -37,11 +36,10 @@
             <li><a href="#"><i class="fa fa-instagram"></i>I</a></li>
             <i class="fab fa-facebook-f"></i>
           </ul>
-        </div>
-        <div class="rights">
+      </div>
+      <div class="rights">
           <p>&copy; 2023 Cruca. All Rights Reserved.</p>
         </div>
-      </div>
     </div>
   </footer>
 </body>
